@@ -18,3 +18,7 @@ notifications:
   email:
     recipients:
       - wjd30142@naver.com
+
+# gradlew 파일 권한 문제
+before_install:
+  - chmod +x gradlew
